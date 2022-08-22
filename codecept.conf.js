@@ -17,7 +17,7 @@ exports.config = {
       browser: 'chromium'
     },
     REST: {
-      endpoint: 'https://admin-advertisement.herokuapp.com/api/advertisements',
+      endpoint: 'https://admin-advertisement.herokuapp.com/api',
       defaultHeaders: {},
     },
     JSONResponse: {}, 

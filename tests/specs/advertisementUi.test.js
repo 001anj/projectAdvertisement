@@ -1,5 +1,4 @@
 const { I, AdvertisementComponent } = inject();
-const { faker } = require('@faker-js/faker');
 const assert = require('assert').strict;
 
 Feature('Advertisement UI test');

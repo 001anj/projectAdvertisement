@@ -68,7 +68,7 @@ class AdvertisementComponent {
   }
 
   async postAdvertisement() {
-    const res = await I.sendPostRequest('/', {
+    const res = await I.sendPostRequest('/advertisements', {
       name: 'Test. ' + I.getRandomString(),
       price: 200,
       status: true
